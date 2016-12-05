@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="123">
+    <meta name="keywords" content="水平仪,计算">
+    <meta name ="viewport" content ="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1, user-scalable=no">
+    <title>水平仪测量结果计算器</title>
+    <link rel="stylesheet" href=".\addsty.css" />
+</head>
+<body class="uk-block-primary">
+    <nav class="uk-navbar uk-navbar-attached">
+        <div class="uk-text-center">
+            <a class="uk-navbar-center uk-button-large sel-cofont" href="">查看历史数据</a>            
+        </div>
+    </nav>
+    <div class="divno"/>
+    <div class="vircent uk-block-primary uk-text-center">        
+        <lable class="uk-text-sel">请输入总取点数量</lable>
+        <form name="form1"method="get" action=".\inputdata.php">
+            <div class="divno">
+                <input type="number" name="valn" min="1" placeholder="" class="inputext0"></input>
+            </div>
+            <input type="submit" class="uk-button  uk-button-large" value="确定"/>
+        </form>
+    </div>
+</body>

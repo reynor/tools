@@ -1,0 +1,12 @@
+<body>
+    <div id="container" style="width: 90%; height: 67%; margin: 0 auto"></div>
+    <script>
+        $(document).ready(function() {
+            var myDate = new Date(); 
+            var subtitle = {
+                text: '检测时间:'+ myDate.toLocaleTimeString()
+            };
+   var json = {};
+   json.title = {text: '检测结果'};
+   json.subtitle = subtitle;
+   json.yAxis = {title: {text: '格数 (1格=0.02mm/m)'}};
