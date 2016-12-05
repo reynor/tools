@@ -86,7 +86,6 @@ margin: -75px 0 0 -50%;
 }
 
 .sel-cofont{
-  margin: 0;
   border: none;
   overflow: visible;
   font: inherit;
@@ -114,4 +113,20 @@ margin: -75px 0 0 -50%;
   border-right-color: transparent;
   border-radius: 0;
 }
-
+.sel-nav-bottom{
+  position:absolute;
+  bottom: 0%;
+  width: 100%;
+  }
+  .sel-note{    
+  height: 50px;
+  width: 85%;
+  margin-top: -5px;
+  margin-bottom: -15px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  color: #444444;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  border-radius: 4px;
+  }
